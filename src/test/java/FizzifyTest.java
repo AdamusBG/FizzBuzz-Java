@@ -11,4 +11,9 @@ public class FizzifyTest {
     void init() {
         testFizzifier = new Fizzify();
     }
+
+    @Test
+    void input1Returns1AsString_convert() {
+        assertEquals("1", testFizzifier.convert(1));
+    }
 }
