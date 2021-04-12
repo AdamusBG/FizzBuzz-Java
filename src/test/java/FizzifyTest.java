@@ -12,6 +12,8 @@ public class FizzifyTest {
         testFizzifier = new Fizzify();
     }
 
+    // These tests cover numbers to be unchanged
+
     @Test
     void input1Returns1AsString_convert() {
         assertEquals("1", testFizzifier.convert(1));
@@ -30,5 +32,12 @@ public class FizzifyTest {
     @Test
     void input73Returns73AsString_convert() {
         assertEquals("73", testFizzifier.convert(73));
+    }
+
+    // These tests cover numbers to be converted to 'Fizz'
+
+    @Test
+    void input3ReturnsFizz_convert() {
+        assertEquals("Fizz", testFizzifier.convert(3));
     }
 }
