@@ -55,4 +55,11 @@ public class FizzifyTest {
     void input99ReturnsFizz_convert() {
         assertEquals("Fizz", testFizzifier.convert(99));
     }
+
+    // These tests cover numbers to be converted to 'Buzz'
+
+    @Test
+    void input5ReturnsBuzz_convert() {
+        assertEquals("Buzz", testFizzifier.convert(5));
+    }
 }
