@@ -16,7 +16,7 @@ This program reflects the simplest version of the rules (above), but is designed
 
 ## Using the program
 
-To clone this repo to your computer, please navigate to your desired directory from a terminal window and enter: `git clone https://github.com/AdamusBG/FizzBuzz-Java.git`. Then enter `cd FizzBuzz-Java` to open it.
+To clone this repo to your computer, please navigate to your desired directory from a terminal window and enter `git clone https://github.com/AdamusBG/FizzBuzz-Java.git`. Then enter `cd FizzBuzz-Java` to open it.
 
 Now follow enter the following commands into your terminal, note you will need Maven installed.
 
