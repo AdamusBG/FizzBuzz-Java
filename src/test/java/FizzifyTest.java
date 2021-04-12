@@ -62,4 +62,19 @@ public class FizzifyTest {
     void input5ReturnsBuzz_convert() {
         assertEquals("Buzz", testFizzifier.convert(5));
     }
+
+    @Test
+    void input10ReturnsBuzz_convert() {
+        assertEquals("Buzz", testFizzifier.convert(10));
+    }
+
+    @Test
+    void input40ReturnsBuzz_convert() {
+        assertEquals("Buzz", testFizzifier.convert(40));
+    }
+
+    @Test
+    void input95ReturnsBuzz_convert() {
+        assertEquals("Buzz", testFizzifier.convert(95));
+    }
 }
